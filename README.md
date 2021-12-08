@@ -1,15 +1,15 @@
-# wzry
+# umi project
 
-## 自己写一个王者荣耀界面
+## Getting Started
 
-下载依赖：
+Install dependencies,
+
 ```bash
 $ yarn
 ```
 
-开启项目,
+Start the dev server,
 
 ```bash
 $ yarn start
 ```
-# wzry
