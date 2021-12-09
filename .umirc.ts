@@ -7,4 +7,9 @@ export default defineConfig({
   },
   routes: routes,
   fastRefresh: {},
+  ignoreMomentLocale: true,
+  antd: {},
+  theme: {
+    'primary-color': 'red',
+  },
 });
