@@ -1,3 +1,40 @@
-.title{
-  border: 1px solid red;
+@import '~@/assets/less/rest';
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 54, 59, 0.95);
+  padding: 24px 0;
+  > img {
+    height: 30px;
+  }
+  .register {
+    background-color: rgb(57, 177, 0);
+    border: none;
+    &:hover {
+      background-color: rgb(63, 187, 8);
+    }
+    margin-right: 20px;
+  }
+  .login {
+    background-color: #8998a6;
+    border: none;
+    &:hover {
+      background-color: rgb(153, 167, 178);
+    }
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  .memu {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      color: #e3e0e0;
+    }
+  }
+}
+
+@media (max-width: 900px) {
 }
